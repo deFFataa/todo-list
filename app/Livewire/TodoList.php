@@ -20,7 +20,7 @@ class TodoList extends Component
 
     public $EditTodoID;
 
-    #[Rule(['required', 'min:3'])]
+    #[Rule(['required', 'min:8'])]
     public $EditTodoName;
 
     public function create(){
